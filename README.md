@@ -5,7 +5,7 @@
 
 此项目在原项目的基础上添加了作者另一个纹理压缩算法[keijiro/unity-dither4444](https://github.com/keijiro/unity-dither4444)及[Dither算法扩展](https://blog.uwa4d.com/archives/2001.html)的代码，将ChromaPack的效果与Dither、ETC/ETC2进行对比，并修复了部分在Unity2017.4上的报错。
 
-简单来说，ChromaPack（本文中简称为CP）是一个使用[Chroma Subsampling算法思路](https://en.wikipedia.org/wiki/Chroma_subsampling)的纹理压缩插件，可以使RGBA32/RBG24纹理转换成12bit（8bit*1.5）压缩格式，图像效果非常接近原图。
+简单来说，ChromaPack（本文中简称为CP）是一个使用[Chroma Subsampling算法思路](https://en.wikipedia.org/wiki/Chroma_subsampling)的纹理压缩插件，可以使RGBA32/RGB24纹理转换成12bit（8bit*1.5）压缩格式，图像效果非常接近原图。
 
 ## 效果展示
 ![图片](https://github.com/uwaGOT/ChromaPack/blob/master/uwa-testimage/effect1.png)
